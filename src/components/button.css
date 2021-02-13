@@ -1,0 +1,34 @@
+.myButton {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.myButton:focus {
+  outline: none;
+}
+
+.myButtonOff {
+  color: #ffff;
+  background-color: #e50000;
+}
+
+.myButtonOff:hover {
+  background-color: #cc0000;
+}
+
+.myButtonOn {
+  background-color: #00b200;
+}
+
+.myButtonOn:hover {
+  background-color: #009900;
+}
+
+.buttonText {
+  color: #ffff;
+  font-size: 3rem;
+}
