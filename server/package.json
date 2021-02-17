@@ -1,0 +1,26 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "test socket server",
+    "main": "index.js",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7",
+        "socket.io": "^3.1.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Node.js",
+        "express",
+        "socket.io"
+    ],
+    "author": "x0xl0ma",
+    "license": "MIT"
+}

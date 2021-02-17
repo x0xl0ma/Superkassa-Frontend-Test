@@ -8,7 +8,7 @@ const buttonReducer = (state = initialState, action) => {
   switch (action.type) {
     case CHANGE_BUTTON_STATE:
       return {
-        state,
+        ...state,
         isActive: action.isActive,
       };
 
